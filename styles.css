@@ -1,0 +1,521 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Top{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #102521;
+    color: white;
+    padding: 0;
+    
+}
+
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.side{
+    width: 30%;
+    height: 90px;
+}
+.Nav{
+    width: 50%;
+    height: 40px;
+    margin-top:30px;
+    padding: 0;
+    overflow: visible;
+
+}
+.Nav a{
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+    margin-left: 50px;
+    margin-top: -30px;
+    margin-top: -30px;
+    font-size: larger;
+    font-weight: bold
+}
+a{
+    text-decoration: none;
+}
+.Logo{
+    display: inline;
+    cursor: pointer;
+    align-self: left;
+    height:100px;
+    width: auto;
+    margin: auto 20px;
+}
+
+.Wallpaper{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(
+        115deg,
+        #064737e3,
+        #033327e3
+      ),
+      url(Bedroom1.jpg);
+      background-size: 100%;
+    width: 100%;
+    height: 700px;
+    overflow: visible;
+}
+.Centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+}
+.CheckIn{
+    width: 75%;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    margin-top:620px;
+    border: 1px solid white;
+    border-radius:10px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 8%), 0 4px 16px rgb(0 0 0 / 5%);
+}
+.CheckSpan{
+    display: inline-block;
+    width: 30%;
+    margin: 40px 0 0 20px;
+}
+.CheckSpan label{
+    font-size: large;
+    font-weight: bold;
+
+}
+.CheckSpan input{
+    display: block;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid rgb(209, 205, 205);
+    border-radius: 4px;
+}
+.CheckSpan input::placeholder{
+    font-weight: bold;
+    color: rgb(98, 102, 104);
+}
+.body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    overflow: visible;
+    background-color: #ffffff;
+}
+.Section{
+    width: 75%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.TextSection{
+    width: 50%;
+    height: 500px;
+    font-weight: bold;
+}
+.PicSection{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.TextSection .AboutUs{
+    color: #118a74;
+    font-size: 35px;
+}
+.TextSection .Welcome{
+    color: #000000;
+    font-size: 50px;
+    line-height: 50px
+}
+.TextSection .Description{
+    color: #575a59;
+    font-size: larger;
+    line-height: 35px;
+}
+.TextSection .Manager{
+    color: #858b8b;
+    font-size: large;
+}
+.Divide{
+    display: inline;
+    width: 49.5%;
+    margin: 0;
+    height:100%;
+    max-height: 100%;
+}
+.Divide.first{
+    flex: 1;
+}
+.Divide.second {
+    flex: 1;
+    margin-left: 1.5%;
+}
+.Divide.first img {
+    border: 1px;
+    border-radius: 5px;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.Divide.second img{
+    border: 1px;
+    display: block;
+    width: 500px;
+    max-width:100%;
+    height: 318.5px;
+    border-radius: 5px;
+    max-height: 49%;
+}
+.Divide.second img:last-of-type{
+    margin-top: 14px;
+ }
+ .Availability{
+    background-color: #102521;
+    color: white;
+    font-weight: bold;
+
+ }
+.Top span{
+    height: 30px;
+    font-weight: bold;
+    margin: 10px 0 20px 50px;
+}
+.Rooms{
+    height: 300px;
+}
+.CenteredRooms{
+    color: white;
+}
+.RoomBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+.Center{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 500px;
+}
+.BodyLeft{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 600px;
+}
+.BodyRight{
+    width: 35%;
+    height: 600px;
+    
+}
+.LeftLeft{
+    flex: 1;
+    width: 49.5%;
+    margin: 0;
+    height:100%;
+    max-height: 100%;
+    
+}
+.LeftLeft img{
+    border: 1px;
+    border-radius: 5px;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    max-height: 45%;
+}
+.LeftRight{
+    width: 49.5%;
+    margin: 0;
+    height:100%;
+    max-height: 100%;
+    flex: 1;
+    margin-left: 1.5%;
+    color: #102521;
+}
+.LeftRight p{
+    color: #636666;
+}
+.LeftLeft img:last-of-type{
+    margin-top: 5%;
+}
+.LeftRight h2:last-of-type{
+    margin-top: 150px;
+}
+.LeftRight h2:first-of-type{
+    margin-top: 80px;
+}
+.LightText{
+    color: #b1b4b4;
+}
+.BodyRight div:last-of-type{
+    margin-top: 200px;
+}
+.Scan{
+    background-color: #102521;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.ContactBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    
+}
+.ContactForm{
+    width: 70%;
+    height: 70%;
+}
+.FormHead{
+    text-align: center;
+}
+.FormBody{
+    display: flex;
+    justify-content: space-between;
+}
+.ContactForm input{
+    margin-top: 30px;
+    width: 47%;
+    height: 50px;
+    display: inline;
+    border-radius: 5px;
+    border: 1px solid #858b8b;
+
+}
+.Formfoot{
+    display: flex;
+    justify-content: center
+}
+.FormFoot textarea{
+    width: 99%;
+    height: 150px;
+    margin-top: 50px;
+}
+.FormFoot input{
+    margin-top: 30px;
+    height: 50px;
+    width: 99%;
+    background-color: #102521;
+    color: white;
+    border-radius: 5px;
+}
+.FormHead h2{
+    color: #118a74;
+    font-size: 25px;
+}
+.FormHead p{
+    color: #000000;
+    font-size: 30px;
+}
+.AboutBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+.AboutLeft{
+    width: 100%;
+    height: 400px;
+}
+.AboutRight{
+    width: 100%;
+    height: 400px;
+}
+.AboutBodySection{
+    display: flex;
+    width: 80%;
+    height: 400px;
+}
+.AboutLeft img{
+    border: 1px;
+    border-radius: 5px;
+    height: 100%;
+    width: auto;
+    max-width: 90%;
+    max-height: 100%;
+}
+.AboutRight p{
+    color: #2b2a2a;
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 30px;
+}
+.AboutRight h2{
+    color: #118a74;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.PPnight{
+    margin-bottom: 10px;
+    position: absolute;
+    color: white;
+    font-size: 40px;
+}
+.Price{
+    color: #118a74;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.Per{
+    color: #ffffff;
+    font-size: 20px;
+}
+.SmallBody{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+}
+.SmallSection{
+    height:100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.SmallLeft{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.SmallRight{
+    width: 20%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.SmallRight div{
+    height: 33.3%;
+    width: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #aaadad;
+    color: #575a59;
+}
+.SmallLeft img{
+    width: 48%;
+    height: 100%;
+    max-width: 48%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+.Foot{
+    height: 350px;
+    width: 30%;
+    margin-left: 150px;
+}
+.Foot ul,.Foot h2{
+    color: #575a59;
+}
+.Foot input{
+    margin-top: 30px;
+    height: 50px;
+    width: 99%;
+    background-color: #102521;
+    color: white;
+    border-radius: 5px;
+}
+.SignBody{
+    background-image: linear-gradient(
+      115deg,
+      #033327e3,
+      #033327e3
+    ),
+    url(Bedroom1.jpg);
+    background-size: 100%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    background-color: #faf5f5f2;
+    width: 35%;
+    height:500px;
+    border: 1px;
+    border-radius: 20px;
+    padding-top: 70px;
+    padding-bottom: 0;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+}
+.SignUp{
+    display: block;
+    width: 80%;
+    height: 500px;
+}
+.Create{
+    text-align: center;
+}
+.FormText{
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: 1px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.check{
+    margin-top: 20px;
+}
+.LoginHere{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.SubmitButton{
+    margin-top: 30px;
+    background-image: linear-gradient(90deg, #18A066, #2ca1be);
+    width: 100%;
+    height: 40px;
+    border: 1px;
+    border-radius: 10px;
+}
+.FormText::placeholder{
+    font-weight: bold;
+}
+.LoginForm{
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    background-color: #faf5f5f2;
+    width: 35%;
+    height:300px;
+    border: 1px;
+    border-radius: 20px;
+    padding-top: 70px;
+    padding-bottom: 0;
+    box-shadow: 0 4px 5px rgb(0 0 0 / 8%), 3 7px 16px rgb(0 0 0 / 5%);
+}
+.Foot input:hover{
+    cursor: pointer;
+}
